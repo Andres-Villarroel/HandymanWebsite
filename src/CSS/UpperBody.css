@@ -1,0 +1,60 @@
+.ImageContainer {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+}
+
+/*this is so that the image can have its opacity controlled without it affecting other elements*/
+.ImageContainer::before {
+    content: "";
+    background-image: url('../assets/images/testImageHome.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
+
+.ButtonContainer {
+    position: relative;
+    float: right;
+    padding-top: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+    */
+    width: 50%;
+}
+
+body {
+    margin: 0px;
+}
+
+/*
+.ImageContainer {
+    background-image: url('../assets/images/testImageHome.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 0px;
+}
+
+.ButtonContainer {
+    float: right;
+    padding-top: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+body {
+    margin: 0px;
+}
+*/

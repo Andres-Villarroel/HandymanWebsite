@@ -1,15 +1,13 @@
 import testImage from '/src/assets/images/testImageHome.jpg';
 import "/src/CSS/Home.css";
-import LinkButton from "../Components/LinkButton"
+import UpperBody from '../Components/UpperBody';
 
 export function Home(){
     //<img src={testImage} alt="TestingImage"/>
     return (
         <>
+        <UpperBody />
         
-        <div className='Home'>
-            <LinkButton/>
-        </div>
         </>
     )
 }
