@@ -1,0 +1,11 @@
+.Home {
+    background-image: url('../assets/images/testImageHome.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+}
