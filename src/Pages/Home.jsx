@@ -1,13 +1,14 @@
 import testImage from '/src/assets/images/testImageHome.jpg';
 import "/src/CSS/Home.css";
 import UpperBody from '../Components/UpperBody';
+import MiddleBody from '../Components/MiddleBody';
 
-export function Home(){
+export default function Home(){
     //<img src={testImage} alt="TestingImage"/>
     return (
         <>
         <UpperBody />
-        
+        <MiddleBody />
         </>
     )
 }

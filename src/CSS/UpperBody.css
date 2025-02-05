@@ -1,3 +1,13 @@
+.GradientContainer {
+    position: relative;
+    background: linear-gradient(to top, transparent 0%, black 100%);
+    /*border-width: 5px;
+    border-color: red;
+    border-style: solid;*/
+    width: 100%;
+    height: 40vh;
+}
+
 .ImageContainer {
     position: relative; 
     height: 100vh;
@@ -14,7 +24,8 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.75;
+    opacity: 0.85;
+    
 }
 
 .ButtonContainer {
@@ -24,37 +35,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /*
-    border-width: 5px;
+    
+    /*border-width: 1px;
     border-color: red;
-    border-style: solid;
-    */
+    border-style: solid;*/
     width: 50%;
 }
 
 body {
     margin: 0px;
 }
-
-/*
-.ImageContainer {
-    background-image: url('../assets/images/testImageHome.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    padding: 0px;
-}
-
-.ButtonContainer {
-    float: right;
-    padding-top: 180px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 50%;
-}
-
-body {
-    margin: 0px;
-}
-*/

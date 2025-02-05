@@ -5,12 +5,15 @@ import "/src/CSS/UpperBody.css"
 function UpperBody() {
   return (
     <div className='ImageContainer'>
-        <div className='ButtonContainer'>
-            <LinkButton/>
-            <LinkButton/>
-            <LinkButton/>
-            <LinkButton/>
-            <LinkButton/>
+        <div className='GradientContainer'>
+            <div className='ButtonContainer'>
+                <LinkButton Name='Home' />
+                <LinkButton Name='About' />
+                <LinkButton Name='Services' />
+                <LinkButton Name='Gallary' />
+                <LinkButton Name='Contact' />
+                <LinkButton Name='FAQ' />
+            </div>
         </div>
     </div>
   )

@@ -1,12 +1,12 @@
 import React from 'react'
 import '/src/CSS/LinkButton.css'
 
-function LinkButton() {
+function LinkButton({Name = 'Button'}) {
 //REMINDER: add props for button name and link to page
 
   return (
     <button className='ButtonComponent'>
-        Button
+        {Name}
     </button>
   )
 }

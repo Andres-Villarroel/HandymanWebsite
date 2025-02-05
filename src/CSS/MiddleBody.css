@@ -1,0 +1,27 @@
+.MainContainer {
+    /*display: flex;
+    flex-direction: column;
+    place-items: center;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+}
+
+.AboutMeContainer {
+    border-radius: 25px;
+    background-color: rgb(216, 204, 204);
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.AboutMeParagraph {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*width: 50vw;*/
+}
+
+.AboutMeTitleHeader{
+    text-align: left;
+    font-family: Archivosans-serif;
+}
+

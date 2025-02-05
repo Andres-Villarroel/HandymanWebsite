@@ -1,0 +1,33 @@
+.ListContainer {
+    background-color: rgb(216, 204, 204);
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.StyledHeaderContainer {
+    /*place div and h2 together on same line*/
+    display: flex;
+    flex-direction: row;
+}
+
+.HeaderBorder {
+    /*turn into the vertical rectangle*/
+    border-style: solid;
+    border-width: 4px;
+    border-color: red;
+    margin-right: 5px;
+}
+
+.HeaderStyle {
+    font-family: sans-serif;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+
+ul li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

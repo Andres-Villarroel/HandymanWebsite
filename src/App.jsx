@@ -1,10 +1,12 @@
 import { useState } from 'react'
 import './App.css'
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
-import { Home } from './Pages/Home'
-import { Page1 } from './Pages/Page1'
-import { Page2 } from './Pages/Page2'
-import { Page3 } from './Pages/Page3'
+import  Home  from './Pages/Home'
+import About from './Pages/About'
+import Contact from './Pages/Contact'
+import FAQ from './Pages/FAQ'
+import Gallary from './Pages/Gallary'
+import Services from './Pages/Services'
 
 function App() {
   
@@ -13,9 +15,11 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/page1" element={<Page1/>}/>
-        <Route path="/page2" element={<Page2/>}/>
-        <Route path="/page3" element={<Page3/>}/>
+        <Route path="/About" element={<About/>}/>
+        <Route path="/Services" element={<Services/>}/>
+        <Route path="/Contact" element={<Contact/>}/>
+        <Route path='/FAQ' element={<FAQ/>} />
+        <Route path='/Gallary' element={<Gallary/>} />
       </Routes>
     </Router>
   )
