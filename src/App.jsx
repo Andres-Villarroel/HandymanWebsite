@@ -7,6 +7,7 @@ import Contact from './Pages/Contact'
 import FAQ from './Pages/FAQ'
 import Gallary from './Pages/Gallary'
 import Services from './Pages/Services'
+import Footer from './Components/Footer'
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
         <Route path='/FAQ' element={<FAQ/>} />
         <Route path='/Gallary' element={<Gallary/>} />
       </Routes>
+      <Footer />
     </Router>
   )
 }
