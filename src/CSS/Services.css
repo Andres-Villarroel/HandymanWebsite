@@ -1,0 +1,17 @@
+.ServiceMainContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 2vh;
+
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+    margin-bottom: 1vh;
+}
+
+.ServiceMainContainer img {
+    
+}

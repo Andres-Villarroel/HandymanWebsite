@@ -16,7 +16,6 @@ function UpperBody() {
                 <LinkButton Name='Services' />
                 <LinkButton Name='Gallary' />
                 <LinkButton Name='Contact' />
-                <LinkButton Name='FAQ' />
             </div>
         </div>
     </div>
