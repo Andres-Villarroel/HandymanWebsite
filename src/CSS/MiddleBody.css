@@ -8,29 +8,53 @@
     color: black;*/
 }
 
+.ImageCompare {
+    width: 100vw;
+}
+
 .AboutMeContainer {
-    /*border-radius: 25px;*/
-    background-color: rgb(216, 204, 204);
+    /*border-radius: 25px;
+    */
     padding: 3vh 0 3vh 0;
+    background-color: rgb(216, 204, 204);
     margin-top: 15vh;
     margin-bottom: 15vh;
+    
+}
+
+.AboutMePositionContainer {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    height: auto;
+}
+
+.Header_paragraph {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
 }
 
 .AboutMeTitleHeader{
+    font-family: sans-serif;
+    font-size: 2vw;
+    /*
     width: 60vw;
     margin-left: auto;
     margin-right: auto;
+    */
 }
 
 .AboutMeParagraph {
+    width: 30vw;
+    line-height: 2;
+    font-size: larger;
+    font-family: sans-serif;
+    /*
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 60vw;
     margin-left: auto;
-    margin-right: auto;
-}
-
-.AboutMeTitleHeader{
-    text-align: left;
-    font-family: Archivosans-serif;
+    margin-right: auto;*/
 }
 

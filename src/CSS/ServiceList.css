@@ -39,7 +39,19 @@
 
 ul li{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style-type: none;
 }
+ul li::before{
+    content: '';
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    background-image: url('/src/assets/images/checkMark.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 0.5em -0.25em -1em;
+}
+
 
 .ListContainer li{
     margin-top: 10px;
