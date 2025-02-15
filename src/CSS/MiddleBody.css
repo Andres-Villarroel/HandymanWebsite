@@ -1,23 +1,32 @@
-.MainContainer {
+.MainContainer_MiddleBody {
     /*display: flex;
     flex-direction: column;
     place-items: center;*/
-    margin-left: auto;
+    /*margin-left: auto;
     margin-right: auto;
     width: 50vw;
+    color: black;*/
 }
 
 .AboutMeContainer {
-    border-radius: 25px;
+    /*border-radius: 25px;*/
     background-color: rgb(216, 204, 204);
-    padding: 10px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    padding: 3vh 0 3vh 0;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+.AboutMeTitleHeader{
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .AboutMeParagraph {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /*width: 50vw;*/
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .AboutMeTitleHeader{

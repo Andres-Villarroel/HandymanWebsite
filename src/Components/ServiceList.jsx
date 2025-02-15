@@ -8,14 +8,14 @@ export default function ServiceList() {
         <div className='HeaderBorder'></div>
         <h2 className='HeaderStyle'>Services Offered</h2>
       </div>
-      <ul>
+      <ul className='ServiceListUL'>
           <li>Drywall Installation</li>
           <li>Drywall Repair</li>
-          <li>Electrical Work</li>
           <li>Tile flooring</li>
           <li>Interior Painting</li>
           <li>Exterior Painting</li>
-          <li>Deck and Porch installation and repairs</li>
+          <li>Deck Building</li>
+          <li>Deck Repair</li>
           <li>Bathroom Repairs</li>
           <li>General Repairs</li>
           <li>Plumbing</li>

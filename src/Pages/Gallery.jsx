@@ -17,7 +17,7 @@ const images = [
 export default function Gallery() {
     return (
         <div className='GalleryMainContainer'>
-            <h1>This is the gallery page</h1>
+            <h1>Gallery</h1>
             <div className='ImageGalleryContainer'>
                 <ImageGallery items={images} onErrorImageURL='/src/assets/images/NoImage.png'/>
             </div>

@@ -6,7 +6,7 @@ import '/src/CSS/MiddleBody.css'
 export default function MiddleBody() {
   return (
     <>
-        <div className='MainContainer'>
+        <div className='MainContainer_MiddleBody'>
             <div className='AboutMeContainer'>
               <h2 className='AboutMeTitleHeader'>Villarroel Remodeling</h2>
               <p className='AboutMeParagraph'>With 20 years of hands-on experience, I’ve tackled everything from replacing water heaters to remodeling entire kitchens. 
