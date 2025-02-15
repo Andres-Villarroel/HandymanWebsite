@@ -11,10 +11,10 @@ function UpperBody() {
             <img src={LogoImage}/>
           </div>
             <div className='ButtonContainer'>
-                <LinkButton Name='Home' />
+                
                 <LinkButton Name='About' />
                 <LinkButton Name='Services' />
-                <LinkButton Name='Gallary' />
+                <LinkButton Name='Gallery' />
                 <LinkButton Name='Contact' />
             </div>
         </div>
@@ -23,3 +23,4 @@ function UpperBody() {
 }
 
 export default UpperBody
+//<LinkButton Name='Home' />
