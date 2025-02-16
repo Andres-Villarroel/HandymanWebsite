@@ -1,6 +1,12 @@
-.MainContainer {
+.MainContainer_Contact {
     display: flex;
+    flex-direction: column;
     width: 60vw;
     height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
+    color: white;
+    font-family: sans-serif;
+
 }

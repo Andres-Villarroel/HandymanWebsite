@@ -1,16 +1,18 @@
-.MainContainer {
-    height: 100vh;
+.MainContainer_About {
+    height: 80vh;
     width: 50vw;
     color: white;
     display: flex;
     flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.MainContainer p {
+.MainContainer_About p {
     font-family: sans-serif;
     font-size: larger;
 }
 
-.MainContainer h1 {
+.MMainContainer_About h1 {
     font-family: sans-serif;
 }

@@ -3,10 +3,10 @@ import ServiceCard from '../Components/ServiceCard'
 
 export default function Services() {
     return (
-        <>
-            <h1>This is Services</h1>
+        <div className='ServiceMainContainer'>
+            <h1>Services Offered</h1>
 
-            <div className='ServiceMainContainer'>
+            <div className='ListContainer_Service'>
                 <ServiceCard ServiceName='Drywall Installation'/>
                 <ServiceCard ServiceName='Tile flooring'/>
                 <ServiceCard ServiceName='Deck Building'/>
@@ -24,6 +24,6 @@ export default function Services() {
                 <ServiceCard ServiceName='Water Heater Replacement'/>
                 <ServiceCard ServiceName='Light Fixture installation'/>
             </div>
-        </>
+        </div>
     )
 }

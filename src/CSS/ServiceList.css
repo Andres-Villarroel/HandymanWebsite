@@ -37,11 +37,11 @@
     margin-right: auto;
 }
 
-ul li{
+.ListContainer ul li{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     list-style-type: none;
 }
-ul li::before{
+.ListContainer ul li::before{
     content: '';
     display: inline-block;
     height: 1em;

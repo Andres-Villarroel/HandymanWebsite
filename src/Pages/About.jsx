@@ -4,7 +4,7 @@ import '/src/CSS/About.css'
 export default function About() {
     return (
         <>
-            <div className="MainContainer">
+            <div className="MainContainer_About">
                 <div>
                     <h1>Reliable. Skilled. Affordable</h1>
                     <p>Hi, I’m Jhonny, a skilled handyman with 20 years of experience providing 

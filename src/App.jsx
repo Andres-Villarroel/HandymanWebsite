@@ -7,12 +7,14 @@ import Contact from './Pages/Contact'
 import Gallery from './Pages/Gallery'
 import Services from './Pages/Services'
 import Footer from './Components/Footer'
+import ScrollToTop from './Components/ScrollToTop'
 
 function App() {
   
 
   return (
     <Router>
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/About" element={<About/>}/>

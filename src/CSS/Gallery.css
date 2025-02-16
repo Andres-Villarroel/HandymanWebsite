@@ -14,3 +14,9 @@
     width: 25vw;
     height: auto;
 }
+
+.GalleryMainContainer h1 {
+    color: white;
+    font-size: 3em;
+    font-family: sans-serif;
+}
