@@ -1,0 +1,28 @@
+.IconCardMainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    border-radius: 10px;
+    background-color: #FFFCF2;
+    color: black;
+    width: 18vw;
+    height: fit-content;
+    padding: 2vw;
+}
+
+.IconCardMainContainer img {
+    width: 20%;
+    height: auto;
+}
+
+.IconCardTextContainer {
+    display: flex;
+    flex-direction: column;
+    line-height: 5px;
+    text-align: center;
+}
+
+.Name_IconCard {
+    font-weight: bolder;
+}

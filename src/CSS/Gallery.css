@@ -13,6 +13,7 @@
     margin-top: 2vh;
     width: 25vw;
     height: auto;
+    clip-path: inset(0px round 10px);
 }
 
 .GalleryMainContainer h1 {
@@ -20,3 +21,4 @@
     font-size: 3em;
     font-family: sans-serif;
 }
+/*clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);*/

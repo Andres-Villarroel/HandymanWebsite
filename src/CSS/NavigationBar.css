@@ -1,0 +1,26 @@
+.NavigationBarMainContainer {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.LogoAndContactContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-bottom: 1vh;
+}
+
+.NavButtonContainer {
+    background-color: #FFFCF2;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    display: flex;
+    justify-content: center;
+    column-gap: 5vw;
+}
+.NavButtonContainer button {
+    color: black;
+}

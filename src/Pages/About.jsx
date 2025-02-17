@@ -1,9 +1,11 @@
 import LinkButton from "../Components/LinkButton"
 import '/src/CSS/About.css'
+import NavigationBar from "../Components/NavigationBar"
 
 export default function About() {
     return (
         <>
+            <NavigationBar/>
             <div className="MainContainer_About">
                 <div>
                     <h1>Reliable. Skilled. Affordable</h1>
@@ -27,6 +29,16 @@ export default function About() {
                     <h1>Payments Accepted</h1>
                     <ul>
                         <li>Cash</li>
+                    </ul>
+                </div>
+                <div>
+                    <h1>Ideas to add</h1>
+                    <ul>
+                        <li>FAQ section like junk removal</li>
+                        <li>set up page as a 2-column page with one side being 
+                            text while the other is his portrait photo.
+                        </li>
+                        
                     </ul>
                 </div>
             </div>

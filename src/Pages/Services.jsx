@@ -1,9 +1,12 @@
 import '/src/CSS/Services.css'
 import ServiceCard from '../Components/ServiceCard'
+import NavigationBar from '../Components/NavigationBar'
 
 export default function Services() {
     return (
-        <div className='ServiceMainContainer'>
+        <>
+            <NavigationBar />
+            <div className='ServiceMainContainer'>
             <h1>Services Offered</h1>
 
             <div className='ListContainer_Service'>
@@ -23,7 +26,8 @@ export default function Services() {
                 <ServiceCard ServiceName='Fence Building'/>
                 <ServiceCard ServiceName='Water Heater Replacement'/>
                 <ServiceCard ServiceName='Light Fixture installation'/>
+                </div>
             </div>
-        </div>
+        </>
     )
 }

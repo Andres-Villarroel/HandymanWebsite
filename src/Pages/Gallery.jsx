@@ -1,6 +1,7 @@
 import '/src/CSS/Gallery.css'
 import ImageGallery from "react-image-gallery";
 import 'react-image-gallery/styles/css/image-gallery.css'
+import NavigationBar from '../Components/NavigationBar';
 
 const images = [
     {
@@ -16,11 +17,14 @@ const images = [
 
 export default function Gallery() {
     return (
+        <>
+        <NavigationBar/>
         <div className='GalleryMainContainer'>
             <h1>Gallery</h1>
             <div className='ImageGalleryContainer'>
                 <ImageGallery items={images} onErrorImageURL='/src/assets/images/NoImage.png'/>
             </div>
         </div>
+        </>
     )
 }
