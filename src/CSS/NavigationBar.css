@@ -1,16 +1,7 @@
 .NavigationBarMainContainer {
     background-color: white;
     font-family: sans-serif;
-}
-
-.LogoAndContactContainer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 3vw;
-    padding-right: 3vw;
-    padding-bottom: 1vh;
+    box-shadow: 10px 1px 10px 5px grey;
 }
 
 .NavButtonContainer {
@@ -18,9 +9,15 @@
     padding-top: 3vh;
     padding-bottom: 3vh;
     display: flex;
+    align-items: flex-end;
     justify-content: center;
     column-gap: 5vw;
 }
 .NavButtonContainer button {
     color: black;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+.NavButtonContainer img {
+    width: 18vw;
 }

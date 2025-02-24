@@ -7,15 +7,12 @@ import LinkButton from '/src/Components/LinkButton.jsx'
 function NavigationBar() {
   return (
     <div className='NavigationBarMainContainer'>
-      <div className='LogoAndContactContainer'>
-        <Link to={"/"}>
-            <img src={LogoImage}/>
-        </Link>
-        <h1>703-505-8784</h1>
-      </div>
       <div className='NavButtonContainer'>
         <LinkButton Name="About"/>
         <LinkButton Name="Services"/>
+        <Link to={"/"}>
+            <img src={LogoImage}/>
+        </Link>
         <LinkButton Name="Gallery"/>
         <LinkButton Name="Contact"/>
       </div>
