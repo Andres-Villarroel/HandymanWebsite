@@ -1,19 +1,56 @@
 .MainContainer_About {
-    height: 80vh;
-    width: 50vw;
-    color: white;
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
     font-family: sans-serif;
+    /*margin-top: 10vh;*/
 }
 
 .MainContainer_About p {
     font-family: sans-serif;
-    font-size: larger;
 }
 
-.MMainContainer_About h1 {
-    font-family: sans-serif;
+.About_FirstSection {
+    background-color: #2596be;
+    color: white;
+    padding: 5vh 5vh;
+}
+.About_FirstSection p{
+    font-size: 1.5em;
+    width: 80vw;
+    line-height: 3.5vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.About_FirstSection h1 {
+    text-align: center;
+}
+
+.About_SecondSection h1 {
+    text-align: center;
+}
+.About_MapContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3vh;
+}
+.About_ServiceAreaParagraph {
+    width: 40vw;
+    font-size: 2em;
+}
+.About_ThirdSection{
+    background-color: #2596be;
+    color: white;
+    padding: 5vh 5vh;
+}
+
+.About_AcceptedPayments h1 {
+    text-align: center;
+}
+.About_AcceptedPayments ul {
+    font-size: 1.5em;
+    padding-left: 5vw;
 }

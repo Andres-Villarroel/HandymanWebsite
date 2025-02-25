@@ -10,7 +10,7 @@ function IconCard({ImageName='NoImage.png', Name='Default', Description='Default
             <img src={ImageLocation}/>
             <div className='IconCardTextContainer'>
                 <p className='Name_IconCard'>{Name}</p>
-                <p>{Description}</p>
+                <p className='Description_IconCard'>{Description}</p>
             </div>
         </div>
     </>

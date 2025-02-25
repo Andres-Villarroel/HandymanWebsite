@@ -1,14 +1,19 @@
+.FooterMainContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
 .FooterContainer {
     flex: 0 0 50px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     margin-top: auto;
-    margin-left: -2vw;
+    /*margin-left: -2vw;*/
     margin-top: 5vh;
-    background-color: black;
-    padding: 10px;
+
     color: white;
     font-family: sans-serif;
 }
@@ -20,18 +25,19 @@
 
 .FooterContainer .Section1{
     width: 20vw;
+    margin-left: 2vw;
 }
 
-.FooterContainer .Section2 ul {
+.Section2 ul {
     list-style: none;
 }
-.FooterContainer .Section2 button {
+.Section2 button {
     color: white;
     background-color: transparent;
     border: none;
     font-size: 1em;
 }
-.FooterContainer .Section2 button:hover {
+.Section2 button:hover {
     text-decoration: underline;
 }
 
@@ -39,25 +45,20 @@
     margin-bottom: 10px;
 }
 
-.FooterContainer .Section3 ul {
+.Section3 {
+    margin-right: 2vw;
+}
+.Section3 ul {
     list-style-type: symbols(cyclic "✓") ;
 }
-.FooterContainer .Section3 h1{
+.Section3 h1{
     text-align: center;
 }
 
-/*
-.FooterContainer {
-    flex: 0 0 50px;
-    margin-top: auto;
-    margin-top: 5vh;
-    background-color: black;
-    padding: 10px;
+.FooterAuthor {
     color: white;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
 }
-
-.FooterContainer img {
-    max-width: 10vw;
-    height: auto;
-}
-*/
