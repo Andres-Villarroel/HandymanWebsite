@@ -6,6 +6,15 @@
     z-index: 1;
 }
 
+.NavBarColorBar_One {
+    height: 2vh;
+    background-color: #0ccc14;
+}
+.NavBarColorBar_Two {
+    height: 2vh;
+    background-color: #047bca;
+}
+
 .NavButtonContainer {
     background-color: #FFFCF2;
     padding-top: 3vh;

@@ -7,25 +7,25 @@ export default function Services() {
         <>
             <NavigationBar />
             <div className='ServiceMainContainer'>
-            <h1>Services Offered</h1>
+                <h1>Services Offered</h1>
 
-            <div className='ListContainer_Service'>
-                <ServiceCard ServiceName='Drywall Installation'/>
-                <ServiceCard ServiceName='Tile flooring'/>
-                <ServiceCard ServiceName='Deck Building'/>
-                <ServiceCard ServiceName='Deck Repair'/>
-                <ServiceCard ServiceName='Plumbing'/>
-                <ServiceCard ServiceName='Basic Electrical Work'/>
-                <ServiceCard ServiceName='Drywall Repair'/>
-                <ServiceCard ServiceName='Drywall Replacement'/>
-                <ServiceCard ServiceName='Painting'/>
-                <ServiceCard ServiceName='Bathroom Repairs'/>
-                <ServiceCard ServiceName='Remodeling'/>
-                <ServiceCard ServiceName='Hardwood Flooring Installation'/>
-                <ServiceCard ServiceName='General Repairs'/>
-                <ServiceCard ServiceName='Fence Building'/>
-                <ServiceCard ServiceName='Water Heater Replacement'/>
-                <ServiceCard ServiceName='Light Fixture installation'/>
+                <div className='ListContainer_Service'>
+                    <ServiceCard ServiceName='Drywall Installation' ImageName='drywall installation.jpg'/>
+                    <ServiceCard ServiceName='Tile flooring' ImageName='tile flooring.jpg'/>
+                    <ServiceCard ServiceName='Deck Building' ImageName='deck building.jpg'/>
+                    <ServiceCard ServiceName='Deck Repair' ImageName='deck repair.jpg'/>
+                    <ServiceCard ServiceName='Plumbing' ImageName='plumbing.jpg'/>
+                    <ServiceCard ServiceName='Basic Electrical Work' ImageName='basic electrical work.png'/>
+                    <ServiceCard ServiceName='Drywall Repair' ImageName='drywall repair.jpg'/>
+                    <ServiceCard ServiceName='Painting' ImageName='painting.jpg'/>
+                    <ServiceCard ServiceName='Bathroom Repairs' ImageName='bathroom repair.jpg'/>
+                    <ServiceCard ServiceName='Remodeling' ImageName='remodeling.jpg'/>
+                    <ServiceCard ServiceName='Hardwood Flooring Installation' ImageName='hardwood flooring install.jpg'/>
+                    <ServiceCard ServiceName='General Repairs' ImageName='general repairs.jpg'/>
+                    <ServiceCard ServiceName='Fence Building' ImageName='Fence Building.jpg'/>
+                    <ServiceCard ServiceName='Water Heater Replacement' ImageName='water heater flickr.jpg'/>
+                    <ServiceCard ServiceName='Light Fixture installation' ImageName='light fixture install.jpg'/>
+                    <ServiceCard ServiceName='More...' ImageName='phoneIcon.svg'/>
                 </div>
             </div>
         </>

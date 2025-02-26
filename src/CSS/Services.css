@@ -1,19 +1,22 @@
 .ListContainer_Service {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    row-gap: 2vh;
-
-    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 3vh;
+    column-gap: 2vw;
+    width: 70vw;
     margin-left: auto;
     margin-right: auto;
-    width: 70vw;
     margin-bottom: 1vh;
+    /*
+    justify-content: space-around;
+    padding: 10px;*/
 }
 
+
 .ServiceMainContainer h1 {
-    color: white;
+    padding-top: 3vh;
+    color: black;
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
