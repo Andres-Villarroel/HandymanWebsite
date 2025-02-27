@@ -2,19 +2,27 @@
     position: relative; 
     height: 100vh;
     width: 100%;
-    
 }
 
 .GradientContainer {
     position: relative;
     background: linear-gradient(to top, transparent 0%, black 100%);
-    /*border-width: 5px;
-    border-color: red;
-    border-style: solid;*/
     width: 100%;
     height: 40vh;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+.logoContainer {
+    position: relative;
+}
+.ButtonContainer_UpperBody {
+    position: relative;
+    float: right;
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /*this is so that the image can have its opacity controlled without it affecting other elements*/
@@ -27,35 +35,12 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.85;
-    
 }
 
-.logoContainer {
-    position: relative;
-    width: 50%;
-    /*border-width: 3px;
-    border-color: greenyellow;
-    border-style: solid;*/
-}
 
 .logoContainer img {
     max-width: 18vw;
     height: auto;
     margin-top: 3vh;
     margin-left: 1vw;
-}
-
-.ButtonContainer_UpperBody {
-    position: relative;
-    float: right;
-    padding-top: 90px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 50%;
-}
-
-body {
-    margin: 0px;
 }

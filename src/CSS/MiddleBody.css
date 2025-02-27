@@ -1,12 +1,10 @@
 .MainContainer_MiddleBody {
     /*display: flex;
     flex-direction: column;
-    place-items: center;*/
-    /*margin-left: auto;
-    margin-right: auto;
-    width: 50vw;
-    color: black;*/
-    
+    place-items: center;
+    color: black;
+    */
+    width: 100%;
 }
 
 .ImageCompare {
@@ -14,8 +12,6 @@
 }
 
 .AboutMeContainer {
-    /*border-radius: 25px;
-    */
     padding: 3vh 0 3vh 0;
     background-color: rgb(216, 204, 204);
     margin-top: 15vh;
@@ -41,11 +37,6 @@
 .AboutMeTitleHeader{
     font-family: sans-serif;
     font-size: 2vw;
-    /*
-    width: 60vw;
-    margin-left: auto;
-    margin-right: auto;
-    */
 }
 
 .AboutMeParagraph {
@@ -53,9 +44,5 @@
     line-height: 2;
     font-size: larger;
     font-family: sans-serif;
-    /*
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left: auto;
-    margin-right: auto;*/
 }
 
