@@ -7,8 +7,7 @@ import LinkButton from '/src/Components/LinkButton.jsx'
 function NavigationBar() {
   return (
     <div className='NavigationBarMainContainer'>
-      <div className='NavBarColorBar_One'/>
-      <div className='NavBarColorBar_Two'/>
+      
       <div className='NavButtonContainer'>
         <LinkButton Name="About"/>
         <LinkButton Name="Services"/>

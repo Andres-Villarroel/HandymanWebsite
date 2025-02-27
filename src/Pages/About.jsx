@@ -1,4 +1,3 @@
-import LinkButton from "../Components/LinkButton"
 import '/src/CSS/About.css'
 import NavigationBar from "../Components/NavigationBar"
 

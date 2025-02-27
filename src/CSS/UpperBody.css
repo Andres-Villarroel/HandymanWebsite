@@ -46,17 +46,13 @@
     margin-left: 1vw;
 }
 
-.ButtonContainer {
+.ButtonContainer_UpperBody {
     position: relative;
     float: right;
     padding-top: 90px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
-    /*border-width: 5px;
-    border-color: red;
-    border-style: solid;*/
     width: 50%;
 }
 
