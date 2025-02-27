@@ -4,6 +4,7 @@ import NavigationBar from "../Components/NavigationBar"
 export default function About() {
     return (
         <>
+            <title>About</title>
             <NavigationBar/>
             <div className="MainContainer_About">
                 <div className="About_FirstSection">

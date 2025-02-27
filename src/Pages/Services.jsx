@@ -5,6 +5,7 @@ import NavigationBar from '../Components/NavigationBar'
 export default function Services() {
     return (
         <>
+            <title>Services Offered</title>
             <NavigationBar />
             <div className='ServiceMainContainer'>
                 <h1>Services Offered</h1>

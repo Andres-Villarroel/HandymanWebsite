@@ -18,6 +18,7 @@ const images = [
 export default function Gallery() {
     return (
         <>
+        <title>Gallery</title>
         <NavigationBar/>
         <div className='GalleryMainContainer'>
             <h1>Gallery</h1>

@@ -6,6 +6,7 @@ export default function Home(){
     //<img src={testImage} alt="TestingImage"/>
     return (
         <>
+            <title>JVRemodeling</title>
             <UpperBody />
             <MiddleBody />
         </>
