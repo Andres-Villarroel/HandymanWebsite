@@ -2,8 +2,8 @@ import React from 'react'
 import '/src/CSS/IconCard.css'
 
 function IconCard({ImageName='NoImage.png', Name='Default', Description='Default'}) {
-    const ImageLocation = '/src/assets/images/'.concat(ImageName);  //TODO: add input validation
-
+    //const ImageLocation = '/src/assets/images/'.concat(ImageName);  //TODO: add input validation
+    const ImageLocation = '/'.concat(ImageName);
   return (
     <>
         <div className='IconCardMainContainer'>
