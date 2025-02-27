@@ -5,13 +5,13 @@ import NavigationBar from '../Components/NavigationBar';
 
 const images = [
     {
-        original: "/src/assets/images/galleryImage1.jpeg"
+        original: "/galleryImage1.jpeg"
     },
     {
-        original: "/src/assets/images/galleryImage2.jpeg"
+        original: "/galleryImage2.jpeg"
     },
     {
-        original: "/src/assets/images/galleryImage3.jpeg"
+        original: "/galleryImage3.jpeg"
     }
 ];
 
