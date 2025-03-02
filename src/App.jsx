@@ -8,10 +8,12 @@ import Gallery from './Pages/Gallery'
 import Services from './Pages/Services'
 import Footer from './Components/Footer'
 import ScrollToTop from './Components/ScrollToTop'
+import Test from './Pages/Test'
+import NewUpperBody from './Components/NewUpperBody'
 
 function App() {
   
-
+    //CONSIDER SWITCHING FLEX STYLE TO COLUMNS AND ADJUSTING ACCORDINGLY
   return (
     <Router>
       <ScrollToTop/>

@@ -1,0 +1,42 @@
+.TestMainContainer {
+    position: relative;
+}
+.HomeImageTest img{
+    max-width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.InnerImage_Logo{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.InnerImage_Logo img{
+    height: auto;
+    width: 50vw;
+}
+
+.Nav_Test {
+    position: relative;
+    z-index: 3;
+}
+/* body {
+    background-color: blueviolet;
+} */
+
+/*
+.TestMainContainer {
+    
+}
+.HomeImageTest img{
+    max-width: 100%;
+    position: static;
+}
+
+.InnerImage_Logo img{
+    position: absolute;
+}
+*/

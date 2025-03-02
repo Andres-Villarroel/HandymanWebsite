@@ -1,5 +1,20 @@
-body {
-    background-color: white;
-    width: 100%;
-    margin: 0;
+
+/*
+.UpperBody_Toggle {
+    display: fixed;
 }
+.Nav_Toggle{
+    display: none;
+}
+    */
+
+/*
+@media screen and (max-width: 600px) {
+    .UpperBody_Toggle {
+        display: none;
+    }
+    .Nav_Toggle{
+        display: flex;
+    }
+}
+*/

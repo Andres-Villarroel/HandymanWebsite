@@ -3,12 +3,15 @@ import '/src/CSS/LinkButton.css'
 import { Link } from 'react-router-dom'
 
 function LinkButton({Name = 'Button'}) {
-
+  var displayName = Name;
+  if (Name == '/') {
+    displayName = 'Home';
+  }
   return (
     <>
       <Link to={"/" + Name}>
         <button className='ButtonComponent'>
-          <span>{Name}</span>
+          <span>{displayName}</span>
         </button>
       </Link>
     </>

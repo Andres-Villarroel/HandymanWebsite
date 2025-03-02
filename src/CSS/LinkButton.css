@@ -10,10 +10,10 @@
     background: #FFFCF2;
     
   }
+  
   span{
     display: block;
     padding: 2vh 2vw;
-    
   }
   .ButtonComponent::before, .ButtonComponent::after{
     content:"";
@@ -62,6 +62,30 @@
     left: 0;
     bottom: 0;
     transition-duration: 0.2s;
+  }
+
+
+
+  @media screen and (max-width: 600px) {
+    .ButtonComponent{
+      display: inline-block;
+      font-size: 1em;
+      background: none;
+      border: none;
+      color: #000;
+      cursor: pointer;
+      background: white;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+    .ButtonComponent span {
+      padding: 3vh;
+      margin: 0;
+    }
+
+    
   }
 /*
 .ButtonComponent {
