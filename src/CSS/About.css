@@ -54,3 +54,15 @@
     font-size: 1.5em;
     padding-left: 5vw;
 }
+
+@media screen and (max-width: 600px) {
+    .About_MapContainer{
+        flex-direction: column;
+        margin-bottom: 3vh;
+    }
+    .About_ServiceAreaParagraph {
+        width: 90%;
+        font-size: 1em;
+    }
+
+}

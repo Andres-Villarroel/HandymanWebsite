@@ -10,9 +10,9 @@ export default function Footer() {
 
         <div className='FooterContainer'>
           <div className='Section1'>
-            <Link to={"/"}>
-              <img src={LogoImage}/>
-            </Link>
+              <Link to={"/"}>
+                <img src={LogoImage}/>
+              </Link>
             <h3>Proudly serving the D.C., Maryland, Virginia area</h3>
             <h4>703-505-8784</h4>
           </div>

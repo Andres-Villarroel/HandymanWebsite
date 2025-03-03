@@ -20,3 +20,15 @@
     aspect-ratio: 1 / 1;
     border-radius: 15px 15px 0 0;
 }
+
+@media screen and (max-width: 600px) {
+    .CardContainer {
+        width: 20vw;
+    }
+    .CardContainer img{
+        width: 20vw;
+    }
+    .CardContainer h3{
+        font-size: 0.7em;
+    }
+}

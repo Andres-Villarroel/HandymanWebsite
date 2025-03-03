@@ -32,3 +32,9 @@
 .NavButtonContainer img {
     width: 18vw;
 }
+
+@media screen and (max-width: 600px) {
+    .NavButtonContainer{
+        display: none;
+    }
+}

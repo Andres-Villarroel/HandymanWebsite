@@ -30,3 +30,9 @@
 .Description_IconCard {
     font-size: 1.2em;
 }
+
+@media screen and (max-width: 600px) {
+    .IconCardMainContainer{
+        width: 60vw;
+    }
+}
