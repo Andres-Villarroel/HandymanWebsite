@@ -6,7 +6,9 @@ export default function Services() {
     return (
         <>
             <title>Services Offered</title>
-            <NavigationBar />
+            <div className='Services_navbar'>
+                <NavigationBar />
+            </div>
             <div className='ServiceMainContainer'>
                 <h1>Services Offered</h1>
 

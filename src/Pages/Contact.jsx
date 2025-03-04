@@ -7,7 +7,9 @@ export default function Contact() {
   return (
     <>
     <title>Contact</title>
-    <NavigationBar />
+    <div className='navigationbar_background'>
+      <NavigationBar />
+    </div>
       <div className='MainContainer_Contact'>
         <h1>Contact Information</h1>
 

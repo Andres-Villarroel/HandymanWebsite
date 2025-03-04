@@ -21,9 +21,19 @@
     font-size: 3em;
     font-family: sans-serif;
 }
+.Gallery_navbar{
+    display: none;
+}
 @media screen and (max-width: 600px) {
     .ImageGalleryContainer {
         width: 90%;
         margin-top: 0;
+    }
+
+    .Gallery_navbar {
+        display: block;
+        background-color: #2596be;
+        width: 100%;
+        height: 7vh;
     }
 }

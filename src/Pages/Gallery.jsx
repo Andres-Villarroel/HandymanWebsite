@@ -19,7 +19,9 @@ export default function Gallery() {
     return (
         <>
         <title>Gallery</title>
-        <NavigationBar/>
+        <div className='Gallery_navbar'>
+            <NavigationBar/>
+        </div>
         <div className='GalleryMainContainer'>
             <h1>Gallery</h1>
             <div className='ImageGalleryContainer'>

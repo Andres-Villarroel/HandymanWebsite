@@ -4,12 +4,14 @@ import { Link } from 'react-router-dom'
 
 function LinkButton({Name = 'Button'}) {
   var displayName = Name;
+  var routeName = Name;
   if (Name == '/') {
     displayName = 'Home';
+    routeName = '';
   }
   return (
     <>
-      <Link to={"/" + Name}>
+      <Link to={"/" + routeName}>
         <button className='ButtonComponent'>
           <span>{displayName}</span>
         </button>

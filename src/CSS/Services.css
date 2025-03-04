@@ -21,10 +21,21 @@
     font-size: 3em;
 }
 
+.Services_navbar {
+    display: none;
+}
+
 @media screen and (max-width: 600px) {
     .ListContainer_Service {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         width: 90%;
+    }
+    
+    .Services_navbar {
+        display: block;
+        background-color: #2596be;
+        width: 100%;
+        height: 7vh;
     }
 }
