@@ -17,9 +17,9 @@
     flex-direction: row;
     column-gap: 10vw;
 }
-.navigationbar_background{
+/* .navigationbar_background{
     display: none;
-}
+} */
 
 @media screen and (max-width: 600px) {
     .MainContainer_Contact {

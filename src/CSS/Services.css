@@ -21,9 +21,9 @@
     font-size: 3em;
 }
 
-.Services_navbar {
+/* .Services_navbar {
     display: none;
-}
+} */
 
 @media screen and (max-width: 600px) {
     .ListContainer_Service {

@@ -18,7 +18,7 @@ export default function Services() {
                     <ServiceCard ServiceName='Deck Building' ImageName='deck building.jpg'/>
                     <ServiceCard ServiceName='Deck Repair' ImageName='deck repair.jpg'/>
                     <ServiceCard ServiceName='Plumbing' ImageName='plumbing.jpg'/>
-                    <ServiceCard ServiceName='Basic Electrical Work' ImageName='basic electrical work.png'/>
+                    <ServiceCard ServiceName='Basic Electrical Work' ImageName='basic electrical work.jpg'/>
                     <ServiceCard ServiceName='Drywall Repair' ImageName='drywall repair.jpg'/>
                     <ServiceCard ServiceName='Painting' ImageName='painting.jpg'/>
                     <ServiceCard ServiceName='Bathroom Repairs' ImageName='bathroom repair.jpg'/>

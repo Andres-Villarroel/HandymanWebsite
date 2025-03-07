@@ -21,9 +21,9 @@
     font-size: 3em;
     font-family: sans-serif;
 }
-.Gallery_navbar{
+/* .Gallery_navbar{
     display: none;
-}
+} */
 @media screen and (max-width: 600px) {
     .ImageGalleryContainer {
         width: 90%;
