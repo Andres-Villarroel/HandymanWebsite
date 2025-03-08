@@ -42,16 +42,6 @@ export default function About() {
                         </ul>
                     </div>
                 </div>
-                <div>
-                    <h1>Ideas to add</h1>
-                    <ul>
-                        <li>FAQ section like junk removal</li>
-                        <li>set up page as a 2-column page with one side being 
-                            text while the other is his portrait photo.
-                        </li>
-                        
-                    </ul>
-                </div>
             </div>
         </>
     )
